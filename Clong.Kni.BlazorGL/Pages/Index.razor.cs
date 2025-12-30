@@ -3,6 +3,7 @@ using Microsoft.JSInterop;
 using Microsoft.Xna.Framework;
 
 namespace Clong.Kni.BlazorGL.Pages;
+
 public partial class Index
 {
     Game _game;
