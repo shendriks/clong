@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <PackageReference Include="MonoGame.Framework.DesktopGL.9000" Version="3.14.9001" />
+      <PackageReference Include="nkast.Xna.Framework.Input" Version="4.2.9001" />
     </ItemGroup>
 
 </Project>
