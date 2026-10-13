@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <EnableDefaultItems>false</EnableDefaultItems>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <RollForward>Major</RollForward>
         <ProjectGuid>ea6b31fe-5633-4ee5-b742-7fbcf36b880e</ProjectGuid>
         <OutputType>WinExe</OutputType>
@@ -27,15 +27,15 @@
         <ApplicationManifest>app.manifest</ApplicationManifest>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="nkast.Xna.Framework" Version="3.14.9001"/>
-        <PackageReference Include="nkast.Xna.Framework.Content" Version="3.14.9001"/>
-        <PackageReference Include="nkast.Xna.Framework.Graphics" Version="3.14.9001"/>
-        <PackageReference Include="nkast.Xna.Framework.Audio" Version="3.14.9001"/>
-        <PackageReference Include="nkast.Xna.Framework.Media" Version="3.14.9001"/>
-        <PackageReference Include="nkast.Xna.Framework.Input" Version="3.14.9001"/>
-        <PackageReference Include="nkast.Xna.Framework.Game" Version="3.14.9001"/>
-        <PackageReference Include="MonoGame.Framework.DesktopGL.9000" Version="3.14.9001"/>
-        <PackageReference Include="nkast.Xna.Framework.Content.Pipeline.Builder" Version="3.14.9001"/>
+        <PackageReference Include="nkast.Xna.Framework" Version="4.3.9001"/>
+        <PackageReference Include="nkast.Xna.Framework.Content" Version="4.3.9001"/>
+        <PackageReference Include="nkast.Xna.Framework.Graphics" Version="4.3.9001"/>
+        <PackageReference Include="nkast.Xna.Framework.Audio" Version="4.3.9001"/>
+        <PackageReference Include="nkast.Xna.Framework.Media" Version="4.3.9001"/>
+        <PackageReference Include="nkast.Xna.Framework.Input" Version="4.3.9001"/>
+        <PackageReference Include="nkast.Xna.Framework.Game" Version="4.3.9001"/>
+        <PackageReference Include="nkast.Kni.Platform.SDL2.GL" Version="4.3.9001"/>
+        <PackageReference Include="nkast.Xna.Framework.Content.Pipeline.Builder" Version="4.3.9001"/>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Program.cs"/>
